@@ -1,0 +1,171 @@
+html body {
+	background-color: #FFFFE0;
+	font: 100% Helvetica, "Times New Roman", Times, serif;
+}
+
+section {
+	margin-top: 20px;
+}
+
+.sepator {
+	margin-top: 0;
+	margin-bottom: 20px;
+	border-top: 2px solid #9A3334;
+}
+
+#avi {
+	height: 100%;
+	width: 55%;
+}
+/*layout*/
+header {
+	text-align: center;
+	background: linear-gradient(rgba(141, 153, 174, 0.8), rgba(141, 153, 174, 0.5)), url("../img/techWorld.jpg") no-repeat fixed;
+	width: 100%;
+	height: 40vh;
+	padding-bottom: 10px;
+
+	.row {
+		height: 100%;
+	}
+
+	.display-3 {
+		padding-top: 5vh;
+	}
+
+	p {
+		color: darkblue;
+	}
+
+	p+p {
+		color: #FeFeFe;
+	}
+}
+
+.navbar {
+	background-color: darkblue;
+
+	.nav-item {
+		color: #FeFeFe;
+	}
+}
+
+.main {
+	margin-top: 60px;
+}
+
+#home {
+	font-size: 1.2em;
+	line-height: 1.75em;
+
+	.description {
+		font-style: oblique;
+		font-weight: 500;
+
+		.align-middle {
+			display: inline-block;
+			vertical-align: middle;
+		}
+	}
+}
+
+.container {
+	h1{
+		color: #9A3334;
+		margin-bottom: 0;
+	}
+	h5 {
+		font-style: oblique;
+	}
+	p {
+		font-size: 1.2em;
+	}
+}
+
+ul {
+	line-height: 1.4em;
+	font-size: 1.2em;
+}
+
+#education {
+	background-color: #89cff0;
+
+	h4+h4 {
+		margin-bottom: 20px;
+	}
+
+	#minor {
+		p {
+			font-size: 40px;
+			font-weight: bold;
+		}
+	}
+
+	.carousel-item {
+		h2 {
+			color: black;
+		}
+
+		img {
+			width: 700px;
+			height: 600px;
+		}
+	}
+}
+
+#skills {
+	background-color: #89cff0;
+	.card {
+		margin-bottom: 5px;
+		img {
+			min-height: 150px;
+			border-radius: 4px;
+		}
+		.card-body {
+			background-color: #FFFFE0;
+			border-radius: 4px;
+		}
+	}
+	#languages {
+		img {
+			min-height: 175px;
+			max-height: 175px;
+		}
+	}
+}
+
+footer {
+	background-color: darkblue;
+	min-height: 20vh;
+	.far {
+		font-weight: 400!important;
+	}
+	.fa, .fas, .fab {
+		font-weight: 900!important;
+	}
+}
+
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.padded {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.nopadding {
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+.full-width {
+	margin-left: 0;
+	margin-right: 0;
+	padding-left: 0;
+	padding-right: 0;
+	width: 100vw;
+}
